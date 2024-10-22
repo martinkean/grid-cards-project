@@ -1,0 +1,65 @@
+/* = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+
+         EXERCISE ONE - Grid layout
+
+    = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+    background-color: #0c4a4c;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {}
+
+section {}
+
+.card {}
+
+/* .side-bit {
+    grid-area: side-bit;
+    background-color: #ee8222;
+}
+
+.card-title {
+    grid-area: card-title;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.4rem;
+    background-color: #64c4b0;
+    color: #ffffff;
+    padding: .5em;
+}
+
+.card-text {
+    grid-area: card-text;
+    background-color: #ddecea;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 1.5em;
+} */
+
+@media screen and (max-width: 550px) {
+    section {
+        grid-template-columns: 1fr;
+        padding: 1.5rem 3rem;
+    }
+
+    .card {
+        grid-template-areas:
+
+    }
+
+    .card-title {
+        font-weight: 500;
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 2rem;
+    }
+}
